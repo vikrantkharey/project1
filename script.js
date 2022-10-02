@@ -57,7 +57,12 @@ $(document).ready(function () {
 
     },
       500,
-      'linear'
+      'linear'   $('header').removeClass('toggle');
+
+    if ($(window).scrollTop() > 0) {
+      $('.top').show();
+    } else {
+      $('.top').hide();
     );
 
   });
