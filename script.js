@@ -24,7 +24,12 @@ $(document).ready(function () {
 <br>
 	<h2><span>G</span> HAPPY GANESH CHATURTHI <span>G</span></h2>
 	<div class="centerimg">
-		<img src="ganeshji.png" width="650px">
+		<img src="ganeshji.png"    $('header').removeClass('toggle');
+
+    if ($(window).scrollTop() > 0) {
+      $('.top').show();
+    } else {
+      $('.top').hide();width="650px">
 		<h3>
 			Vakratund mahakay, Suryakoti samprabha<br>	Nirvighnam Kurume devam, Sarvakaryesu sarvada<br>
 			Happy Ganesh Chaturthi!
