@@ -19,7 +19,12 @@ $(document).ready(function () {
     $(this).toggleClass('fa-times');
     $('header').toggleClass('toggle');
   });
+   $('header').removeClass('toggle');
 
+    if ($(window).scrollTop() > 0) {
+      $('.top').show();
+    } else {
+      $('.top').hide();
   $(window).on('scroll load', function () {
 <br>
 	<h2><span>G</span> HAPPY GANESH CHATURTHI <span>G</span></h2>
