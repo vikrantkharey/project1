@@ -21,7 +21,19 @@ $(document).ready(function () {
   });
 
   $(window).on('scroll load', function () {
-
+<br>
+	<h2><span>G</span> HAPPY GANESH CHATURTHI <span>G</span></h2>
+	<div class="centerimg">
+		<img src="ganeshji.png" width="650px">
+		<h3>
+			Vakratund mahakay, Suryakoti samprabha<br>	Nirvighnam Kurume devam, Sarvakaryesu sarvada<br>
+			Happy Ganesh Chaturthi!
+		</h3>
+		<br>
+		<br>
+		<h3>
+			Best Wishes
+		</h3>
     $('#menu').removeClass('fa-times');
     $('header').removeClass('toggle');
 
